@@ -83,7 +83,7 @@
     </nav>
     <div class="row">
         <?php
-        $connect = mysqli_connect('localhost', 'root', '', 'SDLC');
+        $connect = mysqli_connect('3.132.234.157', 'minhtuan', 'jinx0902', 'tuan02');
         $sql = "SELECT * FROM Song";
         $result = mysqli_query($connect, $sql);
         while ($row_Song = mysqli_fetch_array($result)) {

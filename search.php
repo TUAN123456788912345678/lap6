@@ -17,7 +17,7 @@ if( !empty($_GET['Search'])){
 <div class="container" style="margin-top: 20px">
 <div class="row">
     <?php
-     $connect = mysqli_connect('localhost', 'root', '', 'SDLC');
+     $connect = mysqli_connect('3.132.234.157', 'minhtuan', 'jinx0902', 'tuan02');
      
     if(!empty($search)) {
     	$sql="SELECT * FROM Song,singer,Genre WHERE Song.Songname LIKE '%{$search}%' and Song.singerid=singer.singerid and song.Genreid=Genre.Genreid";

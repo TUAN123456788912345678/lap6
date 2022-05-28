@@ -78,7 +78,7 @@
       $usersid = $_POST['usersid'];
       $usersname= $_POST['usersname'];
 	    $PASSWORD= $_POST['PASSWORD'];
-	    $sql ="INSERT INTO users VALUES('$usersid','$usersname','$PASSWORD')";
+	    $sql ="INSERT INTO users VALUES('3.132.234.157', 'minhtuan', 'jinx0902', 'tuan02')";
 	    $result= mysqli_Query($connect,$sql);
 	  if($result){
 	    echo "<br>";

@@ -61,7 +61,7 @@ session_start();
 </form>
   <?php 
   //Kết nối theo Mysqli procedural
-  $connect = mysqli_connect('localhost','root','','SDLC');
+  $connect = mysqli_connect('3.132.234.157', 'minhtuan', 'jinx0902', 'tuan02');
   if($connect){
     echo " ok";
   }

@@ -58,7 +58,7 @@
 	<div class="row">
 		<?php
 		session_start();
-		$connect = mysqli_connect('localhost', 'root', '', 'SDLC');
+		$connect = mysqli_connect('3.132.234.157', 'minhtuan', 'jinx0902', 'tuan02');
 		$id = $_GET["id"];
 		$sql = "SELECT * FROM Song,singer,Genre WHERE Song.Genreid = Genre.Genreid and Song.singerid = singer.singerid and Songid = {$id}";		
 		$result = mysqli_query($connect, $sql);
