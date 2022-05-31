@@ -23,7 +23,7 @@
     <nav class="navbar navbar-inverse ">
         </style>
 
-        <a href="index.php"><img src="https://pbs.twimg.com/media/EiOLaYbX0AA5S6S.jpg" width="100" height="100" /></a>
+        <a href="home.php"><img src="https://pbs.twimg.com/media/EiOLaYbX0AA5S6S.jpg" width="100" height="100" /></a>
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" . data-target="#myNavbar">
                 <span class="icon-bar"></span>
@@ -33,7 +33,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-            	<form class="form-inline my-2 my-lg-0 " action="search.php" method="GET">
+                <form class="form-inline my-2 my-lg-0 " action="search.php" method="GET">
 <input class="form-control mr-sm-2" type="search" placeholder="Search for song" style= "width: 400px" name="Search">
 <input type="submit"name="search" value="Search" />
 </form>
